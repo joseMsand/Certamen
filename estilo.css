@@ -1,0 +1,204 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:ghostwhite;
+}
+nav ul{
+    list-style: none;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav li{
+    float: left;
+}
+nav li a{
+    color:white;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+nav li a:hover{
+    color:white;
+    background-color: dimgray;
+}
+/*HERO*/
+.hero{
+    background-image: linear-gradient(rgba(210, 210, 210, 0.271),
+        rgba(0,0,0.5)),url("https://fondosmil.com/fondo/65793.jpg");  
+    width: 100%; 
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.text-hero{
+    color:white ;
+    text-align: center;
+    padding: 15%;
+    font-size: 30px;
+}
+/*HERO*/
+.large{
+    font-size: 75px;
+}
+.medium{
+    font-size: 25px;
+}
+
+.titulo-info{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+/*INFO*/
+.contenedor{
+    padding:80px;
+    margin: auto;
+}
+
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0,0,0.5);
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0,6;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgba(0,0,0.5);
+    transform:scale(1.15);
+}
+.card p{
+    margin: 15px;
+    text-align: justify;
+}
+/*FIN INFO*/
+
+
+/*OFERTAS*/
+.titulo-oferta{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+    color:red;
+    margin: auto;
+}
+.cuerpo{
+    background-color: blanchedalmond;
+    width: 90%;
+    border-radius: 2px;
+}
+.contenedor-card-oferta{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-oferta{
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0.5);
+    border-radius: 10px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0,6;
+}
+.card-oferta:hover{
+    box-shadow: 0 0 20px rgba(0,0,0.5);
+    transform:scale(1.15);
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+/*OFERTAS*/
+
+
+
+/**/
+/*Galeria*/
+.galeria{
+    background-color: ghostwhite;
+}
+.titulo-galeria{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.contenedor-img{
+    width: 100%;
+    display: flex;
+    flex-wrap:unset;
+    justify-content: space-evenly;
+}
+.img{
+    width: 250px;
+    height: 210px;
+    box-shadow: 2px 2px 2px rgb(29, 29, 29);
+    border: 2px solid;
+    margin-bottom: 20px;
+
+}
+.img:hover{
+    transform:scale(1.15);
+}
+/*Fin Galeria*/
+
+
+.footer-color{
+    background-color: black;
+    color:white;
+}
+.footer{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+.footer li{
+    padding: 3px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer i{
+    color:white ;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
